@@ -1,0 +1,64 @@
+nav {
+	font-family: 'Roboto', sans-serif;
+}
+.navbar-default .navbar-nav > li > a{
+	color: black !important;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color: white !important;
+	background-color: black;
+}
+.navbar-default .navbar-brand {
+	color: black !important;
+}
+.navbar-default .navbar-brand:hover {
+	color: white !important;
+	background-color: black;
+}
+
+#landing-content {
+overflow: hidden;
+background-image: url(../img/digitaldesign.jpg);
+width: 100%;
+background-size: 150% 150%;
+background-repeat: no-repeat;
+max-height:600px;
+border-bottom: solid;
+border-bottom-color: #628027;
+border-bottom-width: 5px;
+height: 600px;
+margin-top: 50px;
+}
+
+.slider {
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+padding-top: 200px;
+max-width: 1002px;
+}
+#main-title {
+	color: white;
+	-webkit-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+	height: 240px;
+	width: 350px;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+h1 {
+	font-size: 45px;
+}
+h2 {
+	font-size: 40px;
+}
+span {
+	font-size: 40px;
+	color: white;
+	margin-left: 50%;
+	padding-top: 60px;
+}
