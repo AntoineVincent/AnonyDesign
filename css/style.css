@@ -1,3 +1,4 @@
+/* -------->     NAVBAR      <--------- */
 nav {
 	font-family: 'Roboto', sans-serif;
 }
@@ -10,33 +11,62 @@ nav {
 }
 .navbar-default .navbar-brand {
 	color: black !important;
+	float: none;
 }
 .navbar-default .navbar-brand:hover {
 	color: white !important;
 	background-color: black;
 }
+.logo {
+	margin: 0;
+	padding: 0;
+	width: 50px;
+	height: 50px;
+}
 
+/* -------->     FOOTER      <--------- */
+.footer {
+	margin-top: 40px;
+	background-color: black;
+	color: white;
+	font-family: cursive;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+}
+.title-foot {
+	margin-bottom: 10px;
+}
+.social-ico {
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	border-radius: 50px;
+}
+
+/* -------->     JQUERY PARALLAX & MAIN TITLE     <--------- */
 #landing-content {
-overflow: hidden;
-background-image: url(../img/digitaldesign.jpg);
-width: 100%;
-background-size: 150% 150%;
-background-repeat: no-repeat;
-max-height:600px;
-border-bottom: solid;
-border-bottom-color: #628027;
-border-bottom-width: 5px;
-height: 600px;
-margin-top: 50px;
+	overflow: hidden;
+	background-image: url(../img/digitaldesign.jpg);
+	width: 100%;
+	background-size: 150% 150%;
+	background-repeat: no-repeat;
+	max-height:600px;
+	border-bottom: solid;
+	border-bottom-color: black;
+	border-bottom-width: 5px;
+	height: 600px;
+	margin-top: 50px;
 }
 
 .slider {
-margin-left: auto;
-margin-right: auto;
-overflow: hidden;
-padding-top: 200px;
-max-width: 1002px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	padding-top: 200px;
+	max-width: 1002px;
 }
+
 #main-title {
 	color: white;
 	-webkit-transform: rotate(-15deg);
@@ -44,7 +74,7 @@ max-width: 1002px;
 	-ms-transform: rotate(-15deg);
 	-o-transform: rotate(-15deg);
 	transform: rotate(-15deg);
-	height: 240px;
+	height: 280px;
 	width: 350px;
 	padding: 20px;
 	text-align: center;
@@ -56,9 +86,231 @@ h1 {
 h2 {
 	font-size: 40px;
 }
-span {
+.ico {
 	font-size: 40px;
 	color: white;
 	margin-left: 50%;
 	padding-top: 60px;
 }
+
+/* -------->      MAIN DESCRIPTION     <--------- */
+.central-div {
+	border-left: solid grey 1px;
+	border-right: solid grey 1px;
+}
+.main-desc {
+	margin-top: 27px;
+	margin-bottom: 27px;
+}
+.desc-title {
+	text-align: center;
+	font-family: cursive;
+	color: black;
+}
+.desc-ico {
+	margin-left: 45%;
+	color: black;
+	font-size: 28px;
+	margin-bottom: 15px;
+}
+.desc {
+	font-family: cursive;
+	color: black;
+	font-size: 16px;
+	text-align: center;
+}
+
+/* -------->      TRML AUTO WRITER     <--------- */
+.last-desc {
+	height: 125px;
+	background-color: black;
+	color: white;
+}
+.gly {
+	text-align: right;
+	padding: 5px;
+	font-family: cursive;
+	font-size: 24px;
+}
+.dyna-text {
+	font-family: cursive;
+	font-size: 24px;
+}
+.typed-cursor{
+	display: none;
+    opacity: 0;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:0; }
+    50% { opacity:0; }
+    100% { opacity:0; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:0; }
+    50% { opacity:0; }
+    100% { opacity:0; }
+}
+@-moz-keyframes blink{
+    0% { opacity:0; }
+    50% { opacity:0; }
+    100% { opacity:0; }
+}
+
+/* -------->      CITATIONS     <--------- */
+
+.cita-div {
+	margin-top: 40px;
+	font-family: cursive;
+}
+.right-border {
+	border-right: solid grey 1px;
+}
+.quote {
+	text-align: center;
+	font-size: 60px;
+	font-family: cursive;
+	color: grey;
+}
+.citation {
+	color: black;
+	font-size: 24px;
+}
+.author {
+	color:grey;
+	font-size: 18px;
+	text-align: right;
+}
+
+/* -------->      CSS PAGE     <--------- */
+
+.section-title {
+	margin-top: 55px;
+	text-align: center;
+	font-family: cursive;
+	margin-bottom: 10px;
+}
+.css-def {
+	font-family: cursive;
+	color: black;
+}
+.tuto-list {
+	border: solid grey 2px;
+	border-radius: 5px;
+	color: black;
+	font-family: cursive;
+}
+.list-title {
+	font-size:25px;
+	text-decoration: underline;
+}
+li {
+	font-size: 18px;
+	color: black;
+}
+li:hover {
+	color: black;
+}
+
+/* -------->      TUTO CSS PAGE     <--------- */
+.tuto-sub-title {
+	margin-left: 15px;
+	text-decoration: underline;
+}
+.tuto-title {
+	text-decoration: underline;
+}
+.tuto-text {
+	font-size: 17px;
+}
+.css-log {
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+.desc-css {
+	margin-top: 15px;
+}
+
+		/* -------->      RATING STAR     <--------- */
+.rating {
+   direction: rtl;
+}
+.rating a {
+   color: #aaa;
+   text-decoration: none;
+   font-size: 3em;
+   transition: color .4s;
+}
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a {
+   color: orange;
+   cursor: pointer;
+}
+.rating-area-html {
+	height: 160px;
+	width: 100%;
+	overflow: hidden;
+	background-color: black;
+	color: white;
+	border: solid grey 1px;
+	border-radius: 5px;
+	padding: 5px;
+}
+.rating-area-css {
+	height: 330px;
+	width: 100%;
+	overflow: hidden;
+	background-color: black;
+	color: white;
+	border: solid grey 1px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+		/* -------->      GROW AND SHRINK     <--------- */
+.growshrink-content{
+    width:110px;
+    height:110px;
+    background:black;
+    transition:all 0.3s ease;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.grow:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.shrink:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+.grow-area-html {
+	height: 50px;
+	width: 100%;
+	overflow: hidden;
+	background-color: black;
+	color: white;
+	border: solid grey 1px;
+	border-radius: 5px;
+	padding: 5px;
+}
+.grow-area-css {
+	height: 310px;
+	width: 100%;
+	overflow: hidden;
+	background-color: black;
+	color: white;
+	border: solid grey 1px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
